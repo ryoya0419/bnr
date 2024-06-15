@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バナーポートフォリオ</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="test"></div>
+    <header>
+        <h1>中原諒也</h1>
+    </header>
+
+    <h2 id="target" class="title">バナー</h2>
+    <div class="inner">
+
+        <input id="bijoude_tab" type="radio" name="tab" checked>
+        <label for="bijoude_tab"><span id="trigger1">Bijoude</span></label>
+
+        <input id="iqserver_tab" type="radio" name="tab">
+        <label for="iqserver_tab"><span id="trigger2">IQserver</span></label>
+
+        <input id="pcrwap_tab" type="radio" name="tab">
+        <label for="pcrwap_tab"><span id="trigger3">PCRWAP</span></label>
+
+        <input id="star_tab" type="radio" name="tab">
+        <label for="star_tab"><span id="trigger4">STAR OF THE COLOR</span></label>
+
+        <input id="myprotein_tab" type="radio" name="tab">
+        <label for="myprotein_tab"><span id="trigger5">Myprotein</span></label>
+
+        <input id="golf_tab" type="radio" name="tab">
+        <label for="golf_tab"><span id="trigger6">Golf</span></label>
+
+        <input id="shop_media_tab" type="radio" name="tab">
+        <label for="shop_media_tab"><span id="trigger7">店内POPやチラシ</label>
+
+        <input id="other_tab" type="radio" name="tab">
+        <label for="other_tab"><span id="trigger0">other</span></label>
+
+        <section id="bijoude_content" class="tab_contents">
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_300" src="img/otehon_bijoude_300x250.jpg" alt="ネックレスバナー手本01">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_300" src="img/bijoude_300x250.jpg" alt="ネックレスバナー01">
+                </div>
+            </div>
+
+            <div class="tate">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_468" src="img/otehon_bijoude_468x60.jpg" alt="ネックレスバナー手本02">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_468" src="img/bijoude_468x60.jpg" alt="ネックレスバナー02">
+                </div>
+            </div>
+
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_100" src="img/otehon_bijoude_100x60.jpg" alt="ネックレスバナー手本03">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_100" src="img/bijoude_100x60.jpg" alt="ネックレスバナー手本03">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="iqserver_content" class="tab_contents">
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img src="img/otehon_iqserver_300x250.gif" alt="サーバーバナー手本01">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_300" src="img/iqserver_300x250.jpg" alt="サーバーバナー01">
+                </div>
+            </div>
+
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img src="img/otehon_iqserver_120x600.gif" alt="サーバーバナー手本02">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_120" src="img/iqserver_120x600.jpg" alt="サーバーバナー02">
+                </div>
+            </div>
+
+            <div class="tate">
+                <div>
+                    <h3>見本</h3>
+                    <img src="img/otehon_iqserver_234x60.gif" alt="サーバーバナー手本03">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_234" src="img/iqserver_234x60.jpg" alt="サーバーバナー03">
+                </div>
+            </div>
+        </section>
+
+        <section id="pcrwap_content" class="tab_contents">
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_300" src="img/otehon_pcwrap_300x250.gif" alt="PCバナー手本01">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_300" src="img/pcwrap_300x250.jpg" alt="PCバナー手本">
+                </div>
+            </div>
+
+            <div class="tate">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_468" src="img/otehon_pcwrap_468x60.jpg" alt="PCバナー手本02">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_468" src="img/pcwrap_468x60.jpg" alt="PCバナー手本02">
+                </div>
+            </div>
+        </section>
+
+        <section id="star_content" class="tab_contents">
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_300" src="img/otehon_star_300x250.jpg" alt="starバナー手本01">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_300" src="img/star_300x250.jpg" alt="starバナー01">
+                </div>
+            </div>
+
+            <div class="tate">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_468" src="img/otehon_star_468x60.png" alt="starバナー手本02">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_468" src="img/star_486x60.jpg" alt="starバナー01">
+                </div>
+            </div>
+        </section>
+
+        <section id="myprotein_content" class="tab_contents">
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_300" src="img/otehon_myprotein_300x250.png" alt="プロテインバナー01手本">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_300" src="img/myprotein_300x250.png" alt="プロテインバナー01">
+                </div>
+            </div>
+
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_160" src="img/otehon_myprotein_160x600.png" alt="プロテインバナー02手本">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_160" src="img/myprotein_160x600.jpg" alt="プロテインバナー02">
+                </div>
+            </div>
+
+            <div class="yoko">
+                <div>
+                    <h3>見本</h3>
+                    <img class="w_120" src="img/otehon_myprotein_120x600.png" alt="プロテインバナー手本03">
+                </div>
+                <div>
+                    <h3>作品</h3>
+                    <img class="w_120" src="img/myprotein_120x600.jpg" alt="プロテインバナー03">
+                </div>
+            </div>
+        </section>
+
+        <section id="golf_content" class="tab_contents">
+            <div>
+                <div class="golf">
+                    <h3>Ai SMOKE</h3>
+                    <img src="img/golf_aismoke.jpg" alt="AiSMOKEバナー">
+                </div>
+                <div class="golf">
+                    <h3>Qi10</h3>
+                    <img src="img/golf_qi10.jpg" alt="Qi10バナー">
+                </div>
+                <div class="golf">
+                    <h3>G430 10K</h3>
+                    <img src="img/golf_g43010k.jpg" alt="G43010Kバナー">
+                </div>
+            </div>
+        </section>
+
+        <section id="shop_media_content" class="tab_contents">
+
+            <div class="notes">
+                <p>社内コピー機で印刷するものは必ずマージンが発生することを念頭に配置しています。</p>
+            </div>
+
+            <div class="chirashi">
+                <div>
+                    <h3>メンズ表</h3>
+                    <img src="img/media_customM_omote.jpg" alt="同梱チラシカスタム男性用表">
+                </div>
+                <div>
+                    <h3>メンズ裏</h3>
+                    <img src="img/media_customM_ura.jpg" alt="同梱チラシカスタム男性用裏">
+                </div>
+            </div>
+
+            <div class="chirashi">
+                <div>
+                    <h3>レディース表</h3>
+                    <img src="img/media_customW_omote.jpg" alt="同梱チラシカスタム女性用表">
+                </div>
+                <div>
+                    <h3>レディース裏</h3>
+                    <img src="img/media_customW_ura.jpg" alt="同梱チラシカスタム女性用裏">
+                </div>
+            </div>
+
+            <div class="chirashi">
+                <div>
+                    <h3>商品紹介表</h3>
+                    <img src="img/media_itempick_omote.jpg" alt="商品紹介表">
+                </div>
+                <div>
+                    <h3>商品紹介裏</h3>
+                    <img src="img/media_itempick_ura.jpg" alt="商品紹介裏">
+                </div>
+            </div>
+
+            <div class="tate">
+                <div>
+                    <h3>大会チラシ表</h3>
+                    <img src="img/media_championship_omote.jpg" alt="大会チラシ表">
+                </div>
+                <div>
+                    <h3>大会チラシ裏</h3>
+                    <img src="img/media_championship_ura.jpg" alt="大会チラシ裏">
+                </div>
+            </div>
+
+            <div class="pop">
+                <div>
+                    <h3>バレンタインイベント</h3>
+                    <img src="img/media_valentine.jpg" alt="バレンタインイベント">
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <section id="other_content" class="tab_contents">
+            <div>
+                <div class="lp">
+                    <h3>interplan sample</h3>
+                    <img src="img/itp_sample_lp.jpg" alt="LPデザイン画像">
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
