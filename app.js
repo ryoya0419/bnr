@@ -5,7 +5,7 @@
 
 // <label for="other_tab"><span>other</span></label>
 // クリックされたら
-// <h2 class="title">バナー</h2>が<h2 class="title">LP</h2>
+// <h2 class="title">バナー</h2>が<h2 class="title">Other</h2>
 // になる
 
 //または
@@ -18,7 +18,7 @@
 document.getElementById('trigger0').addEventListener('click', jsfor0);
 
 function jsfor0() {
-    document.getElementById('target').textContent = 'LP';
+    document.getElementById('target').textContent = 'Other';
 }
 
 document.getElementById('trigger7').addEventListener('click', jsfor7);
